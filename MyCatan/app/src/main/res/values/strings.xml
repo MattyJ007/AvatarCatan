@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MyCatan</string>
+    <string name="title_activity_rules">RulesActivity</string>
+    <string name="game_rules">Every player is an Element bending general trying to take over the world. Everyone chooses an element. There may be players all choosing the same element.\n
+Each player starts out by placing two villages, the order of players placing villages is determined by dice roll. Each village also gets one road attached to it. Each player receives 4 apprentice benders placed to defend their villages in any order.\n
+The aim of the game is to reach 30 victory points. Winner must win by 2vp for example if two players sit at 29vp, the first to 31 will win. If both are on 30, first to 32 will win.\n
+Each player may only control 3 heroes.\n
+Only one avatar may be present at a time. Killing the avatar awards 3vp to the conqueror.\n
+Only one development card may be bought per turn. Player must wait one turn before using it – unless the card says differently. Only one development card can be played per player, per turn.\n
+Settlements can only be upgraded once per turn. Therefore it is not possible to build an instant Town or City.\n
+Water settlements cannot be built on Volcano or Desert tiles.\n
+Fire settlements cannot be built on Tundra tiles or lake tiles.\n
+Earth settlements can’t build on where 3 water tiles meet.\n
+Air Settlements must be built in mountainous regions.\n
+Non-Hero defenders within a Settlement gain +2 defence against attackers.\n
+Armies may take refuge in Unaffiliated settlements if need be, however they will not get any gold from such actions. If refugee army is attacked by another player, the unaffiliated army will defend the town and the refugee army.\n
+Razing a settlement is instant.\n
+Looting takes one turn per level. If a settlement is overrun by an attacker before looting is complete the attacker may choose if the looting continues or whether the settlement functions as normal.\n
+Spirit defenders cannot leave the settlements that they protect. They do however form part of your army.\n
+Lion turtle cities are actually towns in size. They cannot be upgraded.\n
+Roads don’t discriminate against users.\n
+Can only hold 3 Dev cards at a time. You may trade Dev cards.\n
+You can build onto the roads of other players if you have a settlement attached close by.\n
+Any discrepancies are to be argued out.\n
+If an attacking army vastly out powers a defending army a quick battle may occur. Attacker rolls a die. If the roll is even attacker loses least valuable unit. Odd the attacker loses no units.\n
+</string>
+    <string name="buttBattle">New Battle</string>
+    <string name="buttRules">Rules</string>
+    <string name="buttUnit">View units</string>
+    <string name="title_units_list">Items</string>
+    <string name="title_units_detail">Units Detail</string>
+    <string name="title_activity_units">Units</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="UnitName">Unit name</string>
+    <string name="Price">8 Gold</string>
+    <string name="colour">RED</string>
+    <string name="Works">It\'s Working</string>
+    <string name="stats">Unit Stats</string>
+    <string name="title_activity_battle">Battle</string>
+    <string name="attTeamH">Choose Attacking Team Heroes:</string>
+    <string name="title_activity_in_settlement">InSettlement</string>
+    <string name="title_activity_defense_list">DefenseList</string>
+    <string name="title_activity_get_defense_list">GetDefenseList</string>
+    <string name="title_activity_battle1">Battle1</string>
+    <string name="title_activity_battle_units">BattleUnits</string>
+    <string name="title_activity_battle_defenders">BattleDefenders</string>
+    <string name="title_activity_battle_unit_defenders">BattleUnitDefenders</string>
+    <string name="title_activity_battle_ground">BattleGround</string>
+    <string name="gold">- Gold</string>
+    <string name="title_activity_victory">Victory</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

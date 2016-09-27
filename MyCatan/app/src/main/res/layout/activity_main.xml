@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.catan.mycatan.MainActivity"
+    android:background="@android:color/white">
+
+    <Button
+    android:layout_width="400dp"
+    android:layout_height="100dp"
+    android:text="@string/buttBattle"
+        android:textSize="50sp"
+    android:id="@+id/battleButton"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+        android:background="#f7aaaa"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="@string/buttRules"
+        android:textSize="50sp"
+        android:id="@+id/ruleButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#afabfb"
+        android:clickable="true"/>
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:text="@string/buttUnit"
+        android:textSize="50sp"
+        android:id="@+id/unitButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#edb3fe"
+        android:clickable="true" />
+</RelativeLayout>

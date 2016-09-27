@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="units">
+        <item>Apprentice air</item>
+        <item>Apprentice Water</item>
+        <item>Apprentice Fire</item>
+        <item>Apprentice Earth</item>
+        <item>Master air</item>
+        <item>Master Water</item>
+        <item>Master Fire</item>
+        <item>Master Earth</item>
+        <item>Spirit</item>
+        <item>Fire Nation Guy</item>
+        <item>Asami</item>
+        <item>Sokka</item>
+        <item>Jet</item>
+        <item>The Hippo</item>
+        <item>Suki</item>
+        <item>The Boulder</item>
+        <item>Patik</item>
+        <item>Mako</item>
+        <item>Bolin</item>
+        <item>Huu</item>
+        <item>Sword Master</item>
+        <item>Katara</item>
+        <item>May</item>
+        <item>Ty Lee</item>
+        <item>Sparky</item>
+        <item>Zhou</item>
+        <item>Chief Be Fong</item>
+        <item>Zuko</item>
+        <item>Toph</item>
+        <item>Azula</item>
+        <item>Tensin</item>
+        <item>Kuvira</item>
+        <item>Fire Lord Ozi</item>
+        <item>Tarrlok</item>
+        <item>Iroh</item>
+        <item>Boomie</item>
+        <item>Gyatso</item>
+        <item>Paku</item>
+        <item>Amon</item>
+        <item>Zaheer</item>
+        <item>Unalaq</item>
+        <item>Korra</item>
+        <item>Aang</item>
+        <item>Roku</item>
+        <item>Kyoshi</item>
+    </string-array>
+</resources>

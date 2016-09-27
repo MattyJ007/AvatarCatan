@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/battleGrids"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.catan.mycatan.BattleMath.BattleGround"
+    tools:showIn="@layout/activity_battle_ground">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="40dp"
+        android:text="Defender"
+        android:gravity="center"
+        android:id="@+id/defendView"
+        android:background="#a5b8fe"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="40dp"
+        android:text="Attacker"
+        android:rotation="180"
+        android:gravity="center"
+        android:id="@+id/attackView"
+        android:background="#ff8878"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:columnWidth="90dp"
+        android:numColumns="6"
+        android:id="@+id/defendGrid"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:layout_above="@+id/defendView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/centerText" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:columnWidth="90dp"
+        android:numColumns="6"
+        android:id="@+id/attackGrid"
+        android:rotation="180"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:layout_below="@+id/attackView"
+        android:layout_alignEnd="@+id/defendView"
+        android:layout_above="@+id/centerText" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/no"
+        android:id="@+id/attsNoButt"
+        android:rotation="180"
+        android:backgroundTint="#fc5353"
+        android:layout_alignTop="@+id/attackView"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/no"
+        android:id="@+id/defsNoButt"
+        android:backgroundTint="#7b84ff"
+        android:layout_alignTop="@+id/defendView"
+        android:layout_alignEnd="@+id/defendView" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/yes"
+        android:backgroundTint="#7b84ff"
+        android:id="@+id/defsYesButt"
+        android:layout_alignTop="@+id/defendView"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/yes"
+        android:backgroundTint="#fc5353"
+        android:id="@+id/attsYesButt"
+        android:rotation="180"
+        android:layout_alignTop="@+id/attackView"
+        android:layout_alignEnd="@+id/attackView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Center"
+        android:rotation="0"
+        android:background="#7e7e7e"
+        android:gravity="center"
+        android:id="@+id/centerText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
